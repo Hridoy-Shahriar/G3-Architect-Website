@@ -353,6 +353,10 @@ footer {
     flex-direction: column;
   }
 
+  .navbar {
+    margin-bottom: 50px;
+  }
+
   .nav-item {
     margin-right: 0;
     margin-bottom: 10px;
@@ -361,6 +365,10 @@ footer {
   .our-features {
     margin-top: 50px;
     max-width: 90%;
+  }
+
+  #some-facts {
+    margin-bottom: 70px;
   }
 
   .fact-container {
@@ -373,10 +381,12 @@ footer {
     margin-left: 20px;
   }
 
-  .sponsors-logos {
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    gap: 50px;
+  #our-sponsors {
+    margin-bottom: 50px;
+  }
+
+  .sponsor-logo {
+    width: 70px;
   }
 
   #features-you-will-enjoy {
