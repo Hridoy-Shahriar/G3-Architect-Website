@@ -207,10 +207,6 @@ main {
   line-height: 26px; /* 162.5% */
 }
 
-.feature-image-section {
-  position: relative;
-}
-
 .feature-image-architect {
   display: block;
   width: 100%;
@@ -222,9 +218,8 @@ main {
   background: #ff900e;
   border: none;
   padding: 45px 42px;
-  position: absolute;
-  bottom: -7%;
-  left: -12%;
+  margin-left: -100px;
+  margin-top: -110px;
 }
 
 .year-10 {
@@ -396,8 +391,7 @@ footer {
 
   .experience-btn {
     padding: 20px 20px;
-    bottom: -7%;
-    left: 1%;
+    margin-left: 12px;
   }
 
   .year-10 {
@@ -457,8 +451,8 @@ footer {
 
   .experience-btn {
     padding: 30px 30px;
-    bottom: -6%;
-    left: 1%;
+    margin-bottom: -30px;
+    margin-left: 12px;
   }
 
   .year-10 {
